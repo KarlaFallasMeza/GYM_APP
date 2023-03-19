@@ -11,7 +11,7 @@ public class test1 {
         String sSQL = "";
         ConexionOracle conexion = new ConexionOracle();
         
-    }try{
+    try{
     sSQL = "SELECT * FROM CLIENTES";
     Connection con = conexion.conectar();
     Statement cn = con.createStatement();
@@ -29,8 +29,4 @@ public class test1 {
 }
     
 }
-
-IDCLIENTE
-NOMBRE
-APELLIDO
-TELEFONO
+}
